@@ -13,12 +13,14 @@ SELECT name, value
 FROM v$parameter 
 WHERE name LIKE 'audit_trail';
 ```
+
 ![Auditoría](capturas/1.png)
 
 En mi caso, la auditoría está activada, en caso de que no lo estuviera para activarla ejecutaríamos:
 ```sql
 ALTER SYSTEM SET audit_trail = db scope=spfile;
 ```
+
 ![Auditoría](capturas/2.png)
 
 Hecho esto, tendríamos que tener que reiniciar el servicio de Oracle para que los cambios surtan efecto:
@@ -43,12 +45,14 @@ Ahora, vamos a activar la auditoría de los intentos de acceso exitosos al siste
 ```sql
 AUDIT CREATE SESSION BY ACCESS;
 ```
+
 ![Auditoría](capturas/3.png)
 
 Y por último, vamos a comprobar que funciona con un usuario y contraseña correctos:
 ```sql
 connect SCOTT/TIGER;
 ```
+
 ![Auditoría](capturas/7.png)
 
 Me he logueado varias con el usuario SCOTT y el usuario SYS.
@@ -58,6 +62,7 @@ Ahora, vamos a comprobar que se han guardado los accesos en la tabla de auditor�
 SELECT OS_USERNAME, USERNAME, EXTENDED_TIMESTAMP, ACTION_NAME 
 FROM DBA_AUDIT_SESSION;
 ```
+
 ![Auditoría](capturas/8.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
@@ -68,18 +73,21 @@ Primero debemos activar la auditoría de intentos de acceso fallidos, ejecutamos
 ```sql
 AUDIT CREATE SESSION WHENEVER NOT SUCCESSFUL;
 ```
+
 ![Auditoría](capturas/4.png)
 
 Para comprobar que la auditoría funciona, vamos a intentar acceder a la base de datos con un usuario que no existe:
 ```sql
 connect noexiste/noexiste;
 ```
+
 ![Auditoría](capturas/5.png)
 
 Vamos a comprobarlo también con un usuario que sí existe pero con una contraseña incorrecta:
 ```sql
 connect SCOTT/LION;
 ```
+
 ![Auditoría](capturas/6.png)
 
 Para realizar el procedimiento, voy a crear también una función que se encargará de registar los accesos fallidos en la tabla de auditoría:
@@ -141,6 +149,7 @@ Ahora, vamos a probar el procedimiento:
 set serveroutput on;
 exec p_MostrarAccesosFallidos;
 ```
+
 ![Auditoría](capturas/9.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
@@ -151,6 +160,7 @@ Para activar la auditoría de las operaciones DML realizadas por SCOTT, deberemo
 ```sql
 AUDIT INSERT TABLE, UPDATE TABLE, DELETE TABLE BY SCOTT BY ACCESS;
 ```
+
 ![Auditoría](capturas/10.png)
 
 Ahora, nos tendremos que conectar con el usuario SCOTT y crearemos una tabla a la que le insertaremos registros para comprobar que la auditoría funciona:
@@ -186,8 +196,11 @@ SELECT obj_name, action_name, timestamp
 FROM dba_audit_object 
 WHERE username='SCOTT';
 ```
+
 ![Auditoría](capturas/11.png)
+
 -
+
 ![Auditoría](capturas/12.png)
 
 Como podemos ver la auditoría ha registrado todas las operaciones DML realizadas por SCOTT.
@@ -209,6 +222,7 @@ BEGIN
 END;
 /
 ```
+
 ![Auditoría](capturas/13.png)
 
 Ahora, nos conectaremos con el usuario SCOTT y crearemos una tabla a la que le insertaremos registros para comprobar que la auditoría funciona:
@@ -218,6 +232,7 @@ connect SCOTT/TIGER;
 INSERT INTO EMP VALUES (9999, 'PRUEBA', 'ANALISTA', 9999, TO_DATE('01/01/2019','DD/MM/YYYY'), 4000, 999, 10);
 INSERT INTO EMP VALUES (9998, 'PRUEBA2', 'ANALISTA', 9998, TO_DATE('01/01/2019','DD/MM/YYYY'), 1500, 998, 10);
 ```
+
 ![Auditoría](capturas/14.png)
 
 El primer registro sí debería de aparecer en la auditoría, pero el segundo no, ya que su salario es inferior a 2000.
@@ -228,6 +243,7 @@ SELECT DB_USER, OBJECT_NAME, SQL_TEXT, EXTENDED_TIMESTAMP
 FROM DBA_FGA_AUDIT_TRAIL 
 WHERE POLICY_NAME='AUDIT_FINA_IVAN';
 ```
+
 ![Auditoría](capturas/15.png)
 
 Como podemos ver, sólo se ha registrado la inserción del primer registro, ya que su salario es superior a 2000.
@@ -247,6 +263,7 @@ He decicido usar el ejemplo anterior para ilustrar la diferencia entre ambas aud
 ```sql
 SELECT USERNAME,ACTION_NAME,TIMESTAMP, obj_name from DBA_AUDIT_OBJECT where USERNAME='SCOTT';
 ```
+
 ![Auditoría](capturas/16.png)
 
 La auditoría by session, por otro lado, se refiere a la auditoría que solo registra una entrada de auditoría por sesión. 
@@ -288,6 +305,7 @@ DELETE FROM AUDIT_TEST2 WHERE ID = 6;
 ```sql
 SELECT USERNAME,ACTION_NAME,TIMESTAMP, obj_name from DBA_AUDIT_OBJECT where USERNAME='SCOTT';
 ```
+
 ![Auditoría](capturas/17.png)
 
 
@@ -303,6 +321,7 @@ Veamos un ejemplo:
 ```sql
 SHOW PARAMETER audit_trail;
 ```
+
 ![Auditoría](capturas/18.png)
 
 Como podemos ver, el valor por defecto es "db".
@@ -311,6 +330,7 @@ Como podemos ver, el valor por defecto es "db".
 ```sql
 SELECT USERNAME,ACTION_NAME,TIMESTAMP, obj_name from DBA_AUDIT_OBJECT where USERNAME='SCOTT';
 ```
+
 ![Auditoría](capturas/19.png)
 
 La información que nos muestra es la que hemos estado viendo hasta ahora.
@@ -319,6 +339,7 @@ La información que nos muestra es la que hemos estado viendo hasta ahora.
 ```sql
 ALTER SYSTEM SET audit_trail = DB,EXTENDED SCOPE=SPFILE;
 ```
+
 ![Auditoría](capturas/20.png)
 
 - Hecho esto, deberemos reiniciar la base de datos para que los cambios surtan efecto:
@@ -326,12 +347,14 @@ ALTER SYSTEM SET audit_trail = DB,EXTENDED SCOPE=SPFILE;
 shutdown immediate;
 startup;
 ```
+
 ![Auditoría](capturas/21.png)
 
 - Comprobaremos que la auditoría está activada:
 ```sql
 SHOW PARAMETER audit_trail;
 ```
+
 ![Auditoría](capturas/22.png)
 
 - Para poder comprobar que la auditoría "db, extended" funciona, vamos a crear una tabla y trabajaremos con ella:
@@ -388,9 +411,11 @@ Dichos logs se encuentran en la ruta /var/log/postgresql, y no contienen tanta i
 ```bash
 cat /var/log/postgresql/postgresql-13-main.log
 ```
+
 ![Auditoría](capturas/24.png)
 
 En caso de introducir un usuario que no exista, el log nos mostrará el siguiente mensaje:
+
 ![Auditoría](capturas/24-2.png)
 
 PostgreSQL no incorpora una herramienta para realizar auditorías, por lo que tenemos que hacer uso de una herramienta que ha creado la comunidad para realizar dichas auditorías: Audit trigger 91plus. Esta herramienta nos permite realizar auditorías de las operaciones DML (INSERT, UPDATE, DELETE) y DDL (CREATE, ALTER, DROP) de las tablas de la base de datos. Para instalarla, debemos seguir los siguientes pasos:
@@ -399,12 +424,14 @@ PostgreSQL no incorpora una herramienta para realizar auditorías, por lo que te
 ```bash
 wget https://raw.githubusercontent.com/2ndQuadrant/audit-trigger/master/audit.sql
 ```
+
 ![Auditoría](capturas/25.png)
 
 - Una vez descargada, la importamos en la base de datos:
 ```bash
 \i audit.sql
 ```
+
 ![Auditoría](capturas/26.png)
 
 - Tras haber activado las auditorías con esta herramienta, en caso de que queramos ver las operaciones DML que realice un usuario, (por ejemplo SCOTT) deberemos indicarlo tabla por tabla, puesto que no se puede realizar una auditoría global de todas las tablas de la base de datos. Para ello, deberemos ejecutar el siguiente comando:
@@ -412,6 +439,7 @@ wget https://raw.githubusercontent.com/2ndQuadrant/audit-trigger/master/audit.sq
 SELECT audit.audit_table('scott.emp');
 SELECT audit.audit_table('scott.dept');
 ```
+
 ![Auditoría](capturas/27.png)
 
 - Para pobrar que la auditoría funciona, vamos a insertar un registro en la tabla "emp":
@@ -422,6 +450,7 @@ INSERT INTO dept VALUES (9999, 'IVAN', 'FINA');
 DELETE FROM emp WHERE empno = 9999;
 DELETE FROM dept WHERE deptno = 9999;
 ```
+
 ![Auditoría](capturas/28.png)
 
 - Ahora, vamos a comprobar que la auditoría ha funcionado correctamente:
@@ -429,6 +458,7 @@ DELETE FROM dept WHERE deptno = 9999;
 select session_user_name, action, table_name, action_tstamp_clk, client_query 
 from audit.logged_actions;
 ```
+
 ![Auditoría](capturas/29.png)
 
 Como podemos apreciar, la auditoría funciona correctamente. Nos está mostrando: el usuario que ha realizado la operación, la operación que ha realizado, la tabla en la que ha realizado la operación, la fecha y hora en la que ha realizado la operación y la consulta que ha realizado el usuario. También nos muestra como anteriormente, el usuario postgres eliminó dos resgistros antes de que el usuario scott insertara los suyos.
@@ -539,6 +569,7 @@ general_log_file       = /var/log/mysql/mysql.log
 general_log            = 1
 log_error = /var/log/mysql/error.log
 ```
+
 ![Auditoría](capturas/30.png)
 
 Una vez editado el fichero de configuración, debemos cambiar la propiedad del directorio /var/log/mysql y reiniciar el servicio de MySQL:
@@ -548,6 +579,7 @@ chown mysql:mysql mysql/
 systemctl restart mariadb
 systemctl restart mysql
 ```
+
 ![Auditoría](capturas/31.png)
 
 Para comprobar el funcionamiento, debemos tratar de iniciar sesión en la base de datos con un usuario que no exista y con un usuario que exista y ejecutaremos algunas cosas:
@@ -560,12 +592,14 @@ Ahora ya podremos ver los registros de accesos fallidos a la base de datos:
 ```bash
 cat /var/log/mysql/error.log
 ```
+
 ![Auditoría](capturas/32.png)
 
 El resgistro de logs más interesante es el otro, mysql.log:
 ```bash
 cat /var/log/mysql/mysql.log
 ```
+
 ![Auditoría](capturas/32-2.png)
 
 En este log, podremos ver los accesos fallidos y exitosos a la base de datos, así como las consultas que se han ejecutado en la base de datos junto a su fecha y hora.
@@ -576,6 +610,7 @@ Sin embargo, MySQL no incorpora una herramienta para realizar auditorías, por l
 ```sql
 INSTALL SONAME 'server_audit';
 ```
+
 ![Auditoría](capturas/33.png)
 
 - Tras haber instalado el plugin, debemos activarlo. Para ello, debemos editar el fichero de configuración de MySQL:
@@ -587,6 +622,7 @@ server_audit_events=CONNECT,QUERY,TABLE
 server_audit_logging=ON
 server_audit_incl_users=scott
 ```
+
 ![Auditoría](capturas/34.png)
 
 - Una vez editado el fichero de configuración, debemos reiniciar el servicio de MySQL:
@@ -598,15 +634,18 @@ systemctl restart mariadb
 ```sql
 INSERT INTO EMP VALUES(9999, 'IVAN', 'AUDIT', 9999,STR_TO_DATE('17-DEC-1980', '%d-%M-%Y'), 800, NULL, 20);
 ```
+
 ![Auditoría](capturas/35.png)
 
 - Ahora, vamos a comprobar que la auditoría ha funcionado correctamente mirándolo en los logs de MySQL:
 ```bash
 cat /var/lib/mysql/server_audit.log
 ```
+
 ![Auditoría](capturas/36.png)
 
 Como he hecho esta práctica sobre un mysql donde no tenía ni al usuario scott ni su base de datos creada en el log también podemos ver que se ha creado las tablas y registros originales para la base de datos scott.
+
 ![Auditoría](capturas/37.png)
 
 Como hemos podido observar en las capturas, la auditoría funciona correctamente. Nos está mostrando: el usuario que ha realizado la operación, la operación que ha realizado, la tabla en la que ha realizado la operación, la fecha y hora en la que ha realizado la operación y la consulta que ha realizado el usuario.
@@ -691,6 +730,7 @@ En mi caso, he dicidido habilitar las auditorias usando un fichero JSON desde la
 ```bash
 mongod --dbpath /var/lib/mongodb/ --auditDestination file --auditFormat JSON --auditPath /var/lib/mongodb/auditLog.json
 ```
+
 ![Auditoría](capturas/50.png)
 
 Tras esto, para comprobar que la auditoría funciona correctamente, vamos a mirar los logs de MongoDB desde la consola con un formato JSON para que sea más fácil de leer (antes deberemos tener la utilidad jq instalada):
@@ -700,6 +740,7 @@ apt install jq
 ```bash
 cat /var/lib/mongodb/auditLog.json | jq
 ```
+
 ![Auditoría](capturas/51.png)
 
 Debido a que esta base de datos es virgen, no vamos a poder ver nada de interés. Por ello, vamos a crear una base de datos, un usuario administrador y una colección con registros:
@@ -813,24 +854,31 @@ Ahora, vamos a mirar los logs de auditoría, el fichero contiene alrededor de 50
 cat /var/lib/mongodb/auditLog.json | jq
 ```
 Acceso a la base de datos del administrador:
+
 ![Auditoría](capturas/56.png)
 
 Creación de la colección examen1:
+
 ![Auditoría](capturas/57.png)
 
 La creación del rol nada:
+
 ![Auditoría](capturas/58.png)
 
 Creación del usuario usuario1:
+
 ![Auditoría](capturas/59.png)
 
 Acceso a la base de datos del usuario1:
+
 ![Auditoría](capturas/52.png)
 
 Podemos ver también el sistema operativo desde el que se ha conectado el usuario1:
+
 ![Auditoría](capturas/53.png)
 
 También que cerró la sesión:
+
 ![Auditoría](capturas/54.png)
 
 Con estos ejemplos me parece más que suficiente para demostrar que la auditoría funciona correctamente y que tiene información suficiente para poder analizarla de manera correcta y profesional.
@@ -871,12 +919,14 @@ db.Usuarios.insert({Nombre: "María", Apellidos: "González", Edad: 40});
 
 db.Usuarios.find();
 ```
+
 ![Auditoría](capturas/38.png)
 
 Vamos a ejecutar el comando que hemos visto anteriormente para activar la auditoría de accesos a una colección concreta:
 ```javascript
 db.setLogLevel(3, "accessControl")
 ```
+
 ![Auditoría](capturas/39.png)
 
 Ahora, vamos a intentar acceder a la colección "Usuarios" con un usuario que no tenga permisos para acceder a ella:
