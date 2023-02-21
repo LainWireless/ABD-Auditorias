@@ -1,0 +1,5705 @@
+{
+  "atype": "startup",
+  "ts": {
+    "$date": "2023-02-21T19:28:53.793+00:00"
+  },
+  "uuid": {
+    "$binary": "4Bn6WNksSSeo+3DZPP8qtw==",
+    "$type": "04"
+  },
+  "local": {
+    "isSystemUser": true
+  },
+  "remote": {
+    "isSystemUser": true
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "options": {
+      "auditLog": {
+        "destination": "file",
+        "format": "JSON",
+        "path": "/var/lib/mongodb/auditLog.json"
+      },
+      "storage": {
+        "dbPath": "/var/lib/mongodb/"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:33:26.341+00:00"
+  },
+  "uuid": {
+    "$binary": "N5igCIvqSK2/eU4mYmlCqQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 51958
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:33:26.349+00:00"
+  },
+  "uuid": {
+    "$binary": "IhwHAgZBSYGs/xUdzwpPfw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 51968
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:33:26.363+00:00"
+  },
+  "uuid": {
+    "$binary": "IhwHAgZBSYGs/xUdzwpPfw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 51968
+  },
+  "users": [
+    {
+      "user": "usuario1",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario1",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:33:26.382+00:00"
+  },
+  "uuid": {
+    "$binary": "Zex6pE9aSL+/RQWD1bYzeA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 51970
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:33:26.383+00:00"
+  },
+  "uuid": {
+    "$binary": "Op0vxrLIR4WzAPUkV+m/YA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 51980
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:33:26.384+00:00"
+  },
+  "uuid": {
+    "$binary": "Zex6pE9aSL+/RQWD1bYzeA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 51970
+  },
+  "users": [
+    {
+      "user": "usuario1",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario1",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:33:26.386+00:00"
+  },
+  "uuid": {
+    "$binary": "Op0vxrLIR4WzAPUkV+m/YA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 51980
+  },
+  "users": [
+    {
+      "user": "usuario1",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario1",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:33:31.314+00:00"
+  },
+  "uuid": {
+    "$binary": "whsDfMMtSAeISLAzTlIEiA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 51996
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:33:31.315+00:00"
+  },
+  "uuid": {
+    "$binary": "LmaKSZjaRB2yt9hr0Pn+6A==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 52010
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:33:31.319+00:00"
+  },
+  "uuid": {
+    "$binary": "whsDfMMtSAeISLAzTlIEiA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 51996
+  },
+  "users": [
+    {
+      "user": "usuario1",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario1",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:33:31.320+00:00"
+  },
+  "uuid": {
+    "$binary": "LmaKSZjaRB2yt9hr0Pn+6A==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 52010
+  },
+  "users": [
+    {
+      "user": "usuario1",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario1",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:33:36.853+00:00"
+  },
+  "uuid": {
+    "$binary": "u3hX6QHbQ1aZFXlPR/duiQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 38678
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:33:48.131+00:00"
+  },
+  "uuid": {
+    "$binary": "LmaKSZjaRB2yt9hr0Pn+6A==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 52010
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario1",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:33:48.131+00:00"
+  },
+  "uuid": {
+    "$binary": "whsDfMMtSAeISLAzTlIEiA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 51996
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario1",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:33:48.132+00:00"
+  },
+  "uuid": {
+    "$binary": "Zex6pE9aSL+/RQWD1bYzeA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 51970
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario1",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:33:48.133+00:00"
+  },
+  "uuid": {
+    "$binary": "IhwHAgZBSYGs/xUdzwpPfw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 51968
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario1",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:33:48.133+00:00"
+  },
+  "uuid": {
+    "$binary": "Op0vxrLIR4WzAPUkV+m/YA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 51980
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario1",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:33:55.280+00:00"
+  },
+  "uuid": {
+    "$binary": "8Duo5p43S7+fNXr2Fh2e/g==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50134
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:33:55.288+00:00"
+  },
+  "uuid": {
+    "$binary": "jEY7nSwYRdGm5lY28hFl7Q==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50136
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:33:55.299+00:00"
+  },
+  "uuid": {
+    "$binary": "jEY7nSwYRdGm5lY28hFl7Q==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50136
+  },
+  "users": [
+    {
+      "user": "usuario2",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario2",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:33:55.316+00:00"
+  },
+  "uuid": {
+    "$binary": "j08A2rIYSy2SzWHa5SW4QA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50150
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:33:55.317+00:00"
+  },
+  "uuid": {
+    "$binary": "Y4P5ehVjQN6+Oie+094vow==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50160
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:33:55.319+00:00"
+  },
+  "uuid": {
+    "$binary": "j08A2rIYSy2SzWHa5SW4QA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50150
+  },
+  "users": [
+    {
+      "user": "usuario2",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario2",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:33:55.321+00:00"
+  },
+  "uuid": {
+    "$binary": "Y4P5ehVjQN6+Oie+094vow==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50160
+  },
+  "users": [
+    {
+      "user": "usuario2",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario2",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:34:00.534+00:00"
+  },
+  "uuid": {
+    "$binary": "xgJVeTVQTaecIaQZ5ythjw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 43226
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:34:00.535+00:00"
+  },
+  "uuid": {
+    "$binary": "d0UMoXYCTWe9RrBjcO6UOQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 43236
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:34:00.537+00:00"
+  },
+  "uuid": {
+    "$binary": "xgJVeTVQTaecIaQZ5ythjw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 43226
+  },
+  "users": [
+    {
+      "user": "usuario2",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario2",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:34:00.539+00:00"
+  },
+  "uuid": {
+    "$binary": "d0UMoXYCTWe9RrBjcO6UOQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 43236
+  },
+  "users": [
+    {
+      "user": "usuario2",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario2",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:34:05.792+00:00"
+  },
+  "uuid": {
+    "$binary": "kKtSAv1/SPWNmZRNnGTN6g==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 41728
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:34:11.893+00:00"
+  },
+  "uuid": {
+    "$binary": "d0UMoXYCTWe9RrBjcO6UOQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 43236
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario2",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:34:11.894+00:00"
+  },
+  "uuid": {
+    "$binary": "xgJVeTVQTaecIaQZ5ythjw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 43226
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario2",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:34:11.895+00:00"
+  },
+  "uuid": {
+    "$binary": "j08A2rIYSy2SzWHa5SW4QA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50150
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario2",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:34:11.896+00:00"
+  },
+  "uuid": {
+    "$binary": "jEY7nSwYRdGm5lY28hFl7Q==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50136
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario2",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:34:11.897+00:00"
+  },
+  "uuid": {
+    "$binary": "Y4P5ehVjQN6+Oie+094vow==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50160
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario2",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:34:46.244+00:00"
+  },
+  "uuid": {
+    "$binary": "iuBE7C6yRvehoThPk9svig==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32918
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:34:46.252+00:00"
+  },
+  "uuid": {
+    "$binary": "4wGTz4OHTCqDu5c3lMJ16g==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32932
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:34:46.263+00:00"
+  },
+  "uuid": {
+    "$binary": "4wGTz4OHTCqDu5c3lMJ16g==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32932
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "user": "admin",
+    "db": "admin",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:34:46.281+00:00"
+  },
+  "uuid": {
+    "$binary": "Tc3Ku0IdRgSuvVbdG8oSWQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32938
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:34:46.282+00:00"
+  },
+  "uuid": {
+    "$binary": "BfrrybDnSiiazWofbRGkOQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32946
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:34:46.284+00:00"
+  },
+  "uuid": {
+    "$binary": "Tc3Ku0IdRgSuvVbdG8oSWQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32938
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "user": "admin",
+    "db": "admin",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:34:46.285+00:00"
+  },
+  "uuid": {
+    "$binary": "BfrrybDnSiiazWofbRGkOQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32946
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "user": "admin",
+    "db": "admin",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:34:51.152+00:00"
+  },
+  "uuid": {
+    "$binary": "fdfOIEHxSqia9vc+Lg+7ww==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32948
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:34:51.153+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:34:51.155+00:00"
+  },
+  "uuid": {
+    "$binary": "fdfOIEHxSqia9vc+Lg+7ww==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32948
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "user": "admin",
+    "db": "admin",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:34:51.157+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "user": "admin",
+    "db": "admin",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:34:56.756+00:00"
+  },
+  "uuid": {
+    "$binary": "utLePzUcR8uVVV+DAws+9A==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50594
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "createCollection",
+  "ts": {
+    "$date": "2023-02-21T19:34:57.609+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen10"
+  },
+  "result": 0
+}
+{
+  "atype": "createIndex",
+  "ts": {
+    "$date": "2023-02-21T19:34:57.745+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen10",
+    "indexName": "_id_",
+    "indexSpec": {
+      "v": 2,
+      "key": {
+        "_id": 1
+      },
+      "name": "_id_"
+    },
+    "indexBuildState": "IndexBuildStarted"
+  },
+  "result": 0
+}
+{
+  "atype": "createIndex",
+  "ts": {
+    "$date": "2023-02-21T19:34:57.881+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen10",
+    "indexName": "_id_",
+    "indexSpec": {
+      "v": 2,
+      "key": {
+        "_id": 1
+      },
+      "name": "_id_"
+    },
+    "indexBuildState": "IndexBuildSucceeded"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:36:28.172+00:00"
+  },
+  "uuid": {
+    "$binary": "ARXMt59QQ3eATNMk747n9g==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50176
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:36:28.176+00:00"
+  },
+  "uuid": {
+    "$binary": "ARXMt59QQ3eATNMk747n9g==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50176
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "user": "admin",
+    "db": "admin",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "dropUser",
+  "ts": {
+    "$date": "2023-02-21T19:37:32.227+00:00"
+  },
+  "uuid": {
+    "$binary": "ARXMt59QQ3eATNMk747n9g==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50176
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "user": "usuario1",
+    "db": "test"
+  },
+  "result": 0
+}
+{
+  "atype": "dropUser",
+  "ts": {
+    "$date": "2023-02-21T19:40:40.701+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "user": "usuario1",
+    "db": "ExamenIvan"
+  },
+  "result": 0
+}
+{
+  "atype": "dropUser",
+  "ts": {
+    "$date": "2023-02-21T19:40:43.216+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "user": "usuario2",
+    "db": "ExamenIvan"
+  },
+  "result": 0
+}
+{
+  "atype": "dropUser",
+  "ts": {
+    "$date": "2023-02-21T19:40:44.878+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "user": "usuario3",
+    "db": "ExamenIvan"
+  },
+  "result": 0
+}
+{
+  "atype": "dropUser",
+  "ts": {
+    "$date": "2023-02-21T19:40:46.843+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "user": "usuario4",
+    "db": "ExamenIvan"
+  },
+  "result": 0
+}
+{
+  "atype": "dropCollection",
+  "ts": {
+    "$date": "2023-02-21T19:41:11.386+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.collection",
+    "viewOn": "",
+    "pipeline": []
+  },
+  "result": 26
+}
+{
+  "atype": "dropCollection",
+  "ts": {
+    "$date": "2023-02-21T19:41:15.219+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.collection",
+    "viewOn": "",
+    "pipeline": []
+  },
+  "result": 26
+}
+{
+  "atype": "dropCollection",
+  "ts": {
+    "$date": "2023-02-21T19:41:22.552+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.collection",
+    "viewOn": "",
+    "pipeline": []
+  },
+  "result": 26
+}
+{
+  "atype": "dropCollection",
+  "ts": {
+    "$date": "2023-02-21T19:41:24.214+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.collection",
+    "viewOn": "",
+    "pipeline": []
+  },
+  "result": 26
+}
+{
+  "atype": "dropCollection",
+  "ts": {
+    "$date": "2023-02-21T19:41:26.091+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.collection",
+    "viewOn": "",
+    "pipeline": []
+  },
+  "result": 26
+}
+{
+  "atype": "dropCollection",
+  "ts": {
+    "$date": "2023-02-21T19:42:10.013+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen1"
+  },
+  "result": 0
+}
+{
+  "atype": "dropIndex",
+  "ts": {
+    "$date": "2023-02-21T19:42:10.013+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen1",
+    "indexName": "_id_"
+  },
+  "result": 0
+}
+{
+  "atype": "dropCollection",
+  "ts": {
+    "$date": "2023-02-21T19:42:13.575+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen2"
+  },
+  "result": 0
+}
+{
+  "atype": "dropIndex",
+  "ts": {
+    "$date": "2023-02-21T19:42:13.576+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen2",
+    "indexName": "_id_"
+  },
+  "result": 0
+}
+{
+  "atype": "dropCollection",
+  "ts": {
+    "$date": "2023-02-21T19:42:16.268+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen3"
+  },
+  "result": 0
+}
+{
+  "atype": "dropIndex",
+  "ts": {
+    "$date": "2023-02-21T19:42:16.268+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen3",
+    "indexName": "_id_"
+  },
+  "result": 0
+}
+{
+  "atype": "dropCollection",
+  "ts": {
+    "$date": "2023-02-21T19:42:18.645+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen4",
+    "viewOn": "",
+    "pipeline": []
+  },
+  "result": 26
+}
+{
+  "atype": "dropCollection",
+  "ts": {
+    "$date": "2023-02-21T19:42:21.442+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen5"
+  },
+  "result": 0
+}
+{
+  "atype": "dropIndex",
+  "ts": {
+    "$date": "2023-02-21T19:42:21.442+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen5",
+    "indexName": "_id_"
+  },
+  "result": 0
+}
+{
+  "atype": "dropCollection",
+  "ts": {
+    "$date": "2023-02-21T19:42:24.437+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen10"
+  },
+  "result": 0
+}
+{
+  "atype": "dropIndex",
+  "ts": {
+    "$date": "2023-02-21T19:42:24.437+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen10",
+    "indexName": "_id_"
+  },
+  "result": 0
+}
+{
+  "atype": "createCollection",
+  "ts": {
+    "$date": "2023-02-21T19:43:00.377+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen1"
+  },
+  "result": 0
+}
+{
+  "atype": "createIndex",
+  "ts": {
+    "$date": "2023-02-21T19:43:00.527+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen1",
+    "indexName": "_id_",
+    "indexSpec": {
+      "v": 2,
+      "key": {
+        "_id": 1
+      },
+      "name": "_id_"
+    },
+    "indexBuildState": "IndexBuildStarted"
+  },
+  "result": 0
+}
+{
+  "atype": "createIndex",
+  "ts": {
+    "$date": "2023-02-21T19:43:00.674+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen1",
+    "indexName": "_id_",
+    "indexSpec": {
+      "v": 2,
+      "key": {
+        "_id": 1
+      },
+      "name": "_id_"
+    },
+    "indexBuildState": "IndexBuildSucceeded"
+  },
+  "result": 0
+}
+{
+  "atype": "createCollection",
+  "ts": {
+    "$date": "2023-02-21T19:43:06.156+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen2"
+  },
+  "result": 0
+}
+{
+  "atype": "createIndex",
+  "ts": {
+    "$date": "2023-02-21T19:43:06.278+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen2",
+    "indexName": "_id_",
+    "indexSpec": {
+      "v": 2,
+      "key": {
+        "_id": 1
+      },
+      "name": "_id_"
+    },
+    "indexBuildState": "IndexBuildStarted"
+  },
+  "result": 0
+}
+{
+  "atype": "createIndex",
+  "ts": {
+    "$date": "2023-02-21T19:43:06.382+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "ns": "ExamenIvan.examen2",
+    "indexName": "_id_",
+    "indexSpec": {
+      "v": 2,
+      "key": {
+        "_id": 1
+      },
+      "name": "_id_"
+    },
+    "indexBuildState": "IndexBuildSucceeded"
+  },
+  "result": 0
+}
+{
+  "atype": "createRole",
+  "ts": {
+    "$date": "2023-02-21T19:43:26.025+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "role": "nada",
+    "db": "ExamenIvan",
+    "roles": [],
+    "privileges": [
+      {
+        "resource": {
+          "db": "ExamenIvan",
+          "collection": ""
+        },
+        "actions": [
+          "remove"
+        ]
+      }
+    ]
+  },
+  "result": 0
+}
+{
+  "atype": "createUser",
+  "ts": {
+    "$date": "2023-02-21T19:43:38.140+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "user": "usuario1",
+    "db": "ExamenIvan",
+    "roles": [
+      {
+        "role": "nada",
+        "db": "ExamenIvan"
+      }
+    ]
+  },
+  "result": 0
+}
+{
+  "atype": "createRole",
+  "ts": {
+    "$date": "2023-02-21T19:43:43.462+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "role": "lectura",
+    "db": "ExamenIvan",
+    "roles": [],
+    "privileges": [
+      {
+        "resource": {
+          "db": "ExamenIvan",
+          "collection": "examen2"
+        },
+        "actions": [
+          "find"
+        ]
+      }
+    ]
+  },
+  "result": 0
+}
+{
+  "atype": "createUser",
+  "ts": {
+    "$date": "2023-02-21T19:43:52.150+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "user": "usuario2",
+    "db": "ExamenIvan",
+    "roles": [
+      {
+        "role": "lectura",
+        "db": "ExamenIvan"
+      }
+    ]
+  },
+  "result": 0
+}
+{
+  "atype": "createUser",
+  "ts": {
+    "$date": "2023-02-21T19:43:52.267+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [
+    {
+      "user": "admin",
+      "db": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "user": "usuario3",
+    "db": "ExamenIvan",
+    "roles": [
+      {
+        "role": "dbOwner",
+        "db": "ExamenIvan"
+      }
+    ]
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:48:27.430+00:00"
+  },
+  "uuid": {
+    "$binary": "XPDLpPcXRWyF+sFz6Mn+SQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32952
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "admin",
+        "db": "admin"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:48:27.431+00:00"
+  },
+  "uuid": {
+    "$binary": "fdfOIEHxSqia9vc+Lg+7ww==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32948
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "admin",
+        "db": "admin"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:48:27.432+00:00"
+  },
+  "uuid": {
+    "$binary": "Tc3Ku0IdRgSuvVbdG8oSWQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32938
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "admin",
+        "db": "admin"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:48:27.433+00:00"
+  },
+  "uuid": {
+    "$binary": "4wGTz4OHTCqDu5c3lMJ16g==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32932
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "admin",
+        "db": "admin"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:48:27.434+00:00"
+  },
+  "uuid": {
+    "$binary": "BfrrybDnSiiazWofbRGkOQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 32946
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "admin",
+        "db": "admin"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:48:27.435+00:00"
+  },
+  "uuid": {
+    "$binary": "ARXMt59QQ3eATNMk747n9g==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 50176
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "readWriteAnyDatabase",
+      "db": "admin"
+    },
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "admin",
+        "db": "admin"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:48:33.683+00:00"
+  },
+  "uuid": {
+    "$binary": "BXXb/OncRh2vT5J4Pr6cMw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 44994
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:48:33.690+00:00"
+  },
+  "uuid": {
+    "$binary": "DIjyAa2ERvefYkEscoaEXQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 44996
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:48:33.702+00:00"
+  },
+  "uuid": {
+    "$binary": "DIjyAa2ERvefYkEscoaEXQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 44996
+  },
+  "users": [
+    {
+      "user": "usuario1",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario1",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:48:33.719+00:00"
+  },
+  "uuid": {
+    "$binary": "6QAMvzs6S3eZgWROZAt0Kg==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 45000
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:48:33.720+00:00"
+  },
+  "uuid": {
+    "$binary": "Q3rTRxp7SNSSLeSjW+Cfnw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 45008
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:48:33.721+00:00"
+  },
+  "uuid": {
+    "$binary": "6QAMvzs6S3eZgWROZAt0Kg==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 45000
+  },
+  "users": [
+    {
+      "user": "usuario1",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario1",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:48:33.723+00:00"
+  },
+  "uuid": {
+    "$binary": "Q3rTRxp7SNSSLeSjW+Cfnw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 45008
+  },
+  "users": [
+    {
+      "user": "usuario1",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario1",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:48:38.030+00:00"
+  },
+  "uuid": {
+    "$binary": "DeEBT3ukS3m2DZVS8YJxwg==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 46276
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:48:38.031+00:00"
+  },
+  "uuid": {
+    "$binary": "qwKyiSvlQqew+AjAEWgxig==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 46280
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:48:38.034+00:00"
+  },
+  "uuid": {
+    "$binary": "DeEBT3ukS3m2DZVS8YJxwg==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 46276
+  },
+  "users": [
+    {
+      "user": "usuario1",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario1",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:48:38.035+00:00"
+  },
+  "uuid": {
+    "$binary": "qwKyiSvlQqew+AjAEWgxig==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 46280
+  },
+  "users": [
+    {
+      "user": "usuario1",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario1",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:48:44.195+00:00"
+  },
+  "uuid": {
+    "$binary": "gQ3SpOk9TpKuCa7fIbEhIQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 46294
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:48:53.415+00:00"
+  },
+  "uuid": {
+    "$binary": "qwKyiSvlQqew+AjAEWgxig==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 46280
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario1",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:48:53.416+00:00"
+  },
+  "uuid": {
+    "$binary": "DeEBT3ukS3m2DZVS8YJxwg==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 46276
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario1",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:48:53.418+00:00"
+  },
+  "uuid": {
+    "$binary": "6QAMvzs6S3eZgWROZAt0Kg==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 45000
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario1",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:48:53.419+00:00"
+  },
+  "uuid": {
+    "$binary": "DIjyAa2ERvefYkEscoaEXQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 44996
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario1",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:48:53.420+00:00"
+  },
+  "uuid": {
+    "$binary": "Q3rTRxp7SNSSLeSjW+Cfnw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 45008
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "nada",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario1",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:48:55.324+00:00"
+  },
+  "uuid": {
+    "$binary": "V117XfzLSsuiuV90EgUZQA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60936
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:48:55.332+00:00"
+  },
+  "uuid": {
+    "$binary": "4q+yaLtvQ3aiYyCtw08MDA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60948
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:48:55.343+00:00"
+  },
+  "uuid": {
+    "$binary": "4q+yaLtvQ3aiYyCtw08MDA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60948
+  },
+  "users": [
+    {
+      "user": "usuario2",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario2",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:48:55.360+00:00"
+  },
+  "uuid": {
+    "$binary": "hT/KrzwQSXyv2g2LGj2/qQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60964
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:48:55.361+00:00"
+  },
+  "uuid": {
+    "$binary": "FUObvWOnSd2Dw/xKON9qlg==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60980
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:48:55.363+00:00"
+  },
+  "uuid": {
+    "$binary": "hT/KrzwQSXyv2g2LGj2/qQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60964
+  },
+  "users": [
+    {
+      "user": "usuario2",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario2",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:48:55.365+00:00"
+  },
+  "uuid": {
+    "$binary": "FUObvWOnSd2Dw/xKON9qlg==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60980
+  },
+  "users": [
+    {
+      "user": "usuario2",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario2",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:49:00.910+00:00"
+  },
+  "uuid": {
+    "$binary": "WR+wGpWkS+eqEg3WLuzsaw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60916
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:49:00.911+00:00"
+  },
+  "uuid": {
+    "$binary": "8roYsL+DQveJhOSXsZPsKQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60924
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:49:00.914+00:00"
+  },
+  "uuid": {
+    "$binary": "WR+wGpWkS+eqEg3WLuzsaw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60916
+  },
+  "users": [
+    {
+      "user": "usuario2",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario2",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:49:00.915+00:00"
+  },
+  "uuid": {
+    "$binary": "8roYsL+DQveJhOSXsZPsKQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60924
+  },
+  "users": [
+    {
+      "user": "usuario2",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario2",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:49:05.836+00:00"
+  },
+  "uuid": {
+    "$binary": "w0UCA+V2QhKBs4pBEGdLgw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 57478
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:49:57.225+00:00"
+  },
+  "uuid": {
+    "$binary": "8roYsL+DQveJhOSXsZPsKQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60924
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario2",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:49:57.226+00:00"
+  },
+  "uuid": {
+    "$binary": "WR+wGpWkS+eqEg3WLuzsaw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60916
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario2",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:49:57.227+00:00"
+  },
+  "uuid": {
+    "$binary": "hT/KrzwQSXyv2g2LGj2/qQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60964
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario2",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:49:57.228+00:00"
+  },
+  "uuid": {
+    "$binary": "4q+yaLtvQ3aiYyCtw08MDA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60948
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario2",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:49:57.229+00:00"
+  },
+  "uuid": {
+    "$binary": "FUObvWOnSd2Dw/xKON9qlg==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 60980
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "lectura",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario2",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:50:19.491+00:00"
+  },
+  "uuid": {
+    "$binary": "/fbzxa3OQXeRBPtoVXntpA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36734
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:50:19.498+00:00"
+  },
+  "uuid": {
+    "$binary": "EanvqCv9QiGYrKmlNV+qBw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36750
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:50:19.509+00:00"
+  },
+  "uuid": {
+    "$binary": "EanvqCv9QiGYrKmlNV+qBw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36750
+  },
+  "users": [
+    {
+      "user": "usuario3",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "dbOwner",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario3",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:50:19.527+00:00"
+  },
+  "uuid": {
+    "$binary": "zZQKyUPSSSWhdfG2kVwmSQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36752
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:50:19.528+00:00"
+  },
+  "uuid": {
+    "$binary": "CYdo/uxzQqWy5mYaLk+sFA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36756
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:50:19.529+00:00"
+  },
+  "uuid": {
+    "$binary": "zZQKyUPSSSWhdfG2kVwmSQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36752
+  },
+  "users": [
+    {
+      "user": "usuario3",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "dbOwner",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario3",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:50:19.531+00:00"
+  },
+  "uuid": {
+    "$binary": "CYdo/uxzQqWy5mYaLk+sFA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36756
+  },
+  "users": [
+    {
+      "user": "usuario3",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "dbOwner",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario3",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:50:24.207+00:00"
+  },
+  "uuid": {
+    "$binary": "G3as/UapTte908JqhUOydA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36760
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:50:24.208+00:00"
+  },
+  "uuid": {
+    "$binary": "MYW2sn8UTDSS6BpjkdwGNA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36770
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:50:24.211+00:00"
+  },
+  "uuid": {
+    "$binary": "G3as/UapTte908JqhUOydA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36760
+  },
+  "users": [
+    {
+      "user": "usuario3",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "dbOwner",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario3",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "authenticate",
+  "ts": {
+    "$date": "2023-02-21T19:50:24.212+00:00"
+  },
+  "uuid": {
+    "$binary": "MYW2sn8UTDSS6BpjkdwGNA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36770
+  },
+  "users": [
+    {
+      "user": "usuario3",
+      "db": "ExamenIvan"
+    }
+  ],
+  "roles": [
+    {
+      "role": "dbOwner",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "user": "usuario3",
+    "db": "ExamenIvan",
+    "mechanism": "SCRAM-SHA-256"
+  },
+  "result": 0
+}
+{
+  "atype": "clientMetadata",
+  "ts": {
+    "$date": "2023-02-21T19:50:30.006+00:00"
+  },
+  "uuid": {
+    "$binary": "aAFXKo++SiWn2WI8xeR0vg==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 56188
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "localEndpoint": {
+      "ip": "127.0.0.1",
+      "port": 27017
+    },
+    "clientMetadata": {
+      "driver": {
+        "name": "nodejs|mongosh",
+        "version": "4.13.0"
+      },
+      "os": {
+        "type": "Linux",
+        "name": "linux",
+        "architecture": "x64",
+        "version": "5.10.0-18-amd64"
+      },
+      "platform": "Node.js v16.19.0, LE (unified)",
+      "version": "4.13.0|1.7.1",
+      "application": {
+        "name": "mongosh 1.7.1"
+      }
+    }
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:50:52.713+00:00"
+  },
+  "uuid": {
+    "$binary": "MYW2sn8UTDSS6BpjkdwGNA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36770
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "dbOwner",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario3",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:50:52.714+00:00"
+  },
+  "uuid": {
+    "$binary": "G3as/UapTte908JqhUOydA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36760
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "dbOwner",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario3",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:50:52.716+00:00"
+  },
+  "uuid": {
+    "$binary": "zZQKyUPSSSWhdfG2kVwmSQ==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36752
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "dbOwner",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario3",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:50:52.716+00:00"
+  },
+  "uuid": {
+    "$binary": "EanvqCv9QiGYrKmlNV+qBw==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36750
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "dbOwner",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario3",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:50:52.717+00:00"
+  },
+  "uuid": {
+    "$binary": "CYdo/uxzQqWy5mYaLk+sFA==",
+    "$type": "04"
+  },
+  "local": {
+    "ip": "127.0.0.1",
+    "port": 27017
+  },
+  "remote": {
+    "ip": "127.0.0.1",
+    "port": 36756
+  },
+  "users": [],
+  "roles": [
+    {
+      "role": "dbOwner",
+      "db": "ExamenIvan"
+    }
+  ],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "usuario3",
+        "db": "ExamenIvan"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "logout",
+  "ts": {
+    "$date": "2023-02-21T19:52:49.214+00:00"
+  },
+  "uuid": {
+    "$binary": "rUlTahC0TbGWK6NMFREGFg==",
+    "$type": "04"
+  },
+  "local": {
+    "isSystemUser": true
+  },
+  "remote": {
+    "isSystemUser": true
+  },
+  "users": [],
+  "roles": [],
+  "param": {
+    "reason": "Client has disconnected",
+    "initialUsers": [
+      {
+        "user": "__system",
+        "db": "local"
+      }
+    ],
+    "updatedUsers": []
+  },
+  "result": 0
+}
+{
+  "atype": "shutdown",
+  "ts": {
+    "$date": "2023-02-21T19:52:49.536+00:00"
+  },
+  "uuid": {
+    "$binary": "48N8dBgfSxuvNGYGl8etfQ==",
+    "$type": "04"
+  },
+  "local": {
+    "isSystemUser": true
+  },
+  "remote": {
+    "isSystemUser": true
+  },
+  "users": [],
+  "roles": [],
+  "param": {},
+  "result": 0
+}
